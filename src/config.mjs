@@ -1,7 +1,7 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'Eugenio Garcia',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
@@ -9,7 +9,7 @@ const CONFIG = {
 
   title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    'This is a personal profile website.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
