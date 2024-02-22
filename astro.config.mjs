@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
-import { BASE_URL, SITE_URL } from "./src/data/config";
+import { SITE_URL } from "./src/data/config";
 
 // https://astro.build/config
 export default defineConfig({
