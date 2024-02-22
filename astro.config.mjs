@@ -7,7 +7,7 @@ import { BASE_URL, SITE_URL } from "./src/data/config";
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
   site: SITE_URL,
-  base: BASE_URL,
+  base: "/portfolio",
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {
