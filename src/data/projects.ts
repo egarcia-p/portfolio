@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     title: "CoupleCents App",
     techs: ["NextJS", "TailwindCSS", "PostgreSQL","Drizzle ORM", "Vercel"],
-    link: "https://github.com/egarcia-p/couple-cents",
+    link: "https://github.com/egarcia-p/couple-cents/",
     isComingSoon: false,
   },
   {
