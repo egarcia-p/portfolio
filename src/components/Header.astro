@@ -1,7 +1,7 @@
 ---
 import removeTrailingSlash from "@/utils/removeTrailingSlash";
 import presentation from "@/data/presentation";
-import { BASE_URL } from "@/data/config";
+import { SITE_URL } from "@/data/config";
 
 const pathname = removeTrailingSlash(Astro.url.pathname);
 ---
@@ -15,7 +15,7 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
     <ul role="list" class="flex flex-row gap-2">
       <li>
         <a
-          href=`${BASE_URL}`
+          href=`${SITE_URL}`
           class:list={{
             ["hover:text-neutral-100"]: true,
             ["text-neutral-100"]: pathname === "/",
@@ -25,7 +25,7 @@ const pathname = removeTrailingSlash(Astro.url.pathname);
       <li>/</li>
       <li>
         <a
-          href=`${BASE_URL}/posts`
+          href=`${SITE_URL}/posts`
           class:list={{
             ["hover:text-neutral-100"]: true,
             ["text-neutral-100"]: pathname === "/posts",
